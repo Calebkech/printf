@@ -20,5 +20,9 @@ typedef struct types
 } type_s;
 
 int _putchar(char c);
-
+int handle_char(va_list params);
+int setter(const char *format, va_list params, int j);
+int _printf(const char *format, ...);
+int handle_char(va_list params);
+int handle_string(va_list params);
 #endif
