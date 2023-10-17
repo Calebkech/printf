@@ -1,5 +1,3 @@
-# :rocket Welcome to _printf :rocket
-
 ![ALX School Logo](https://www.alxafrica.com/wp-content/uploads/2022/12/logo-white.svg)
 
 Presented by Aymane & Caleb 🚀
