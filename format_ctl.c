@@ -45,3 +45,4 @@ int format_ctl(const char *format, va_list params, int j)
 	}
 	return (len);
 }
+

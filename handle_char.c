@@ -1,20 +1,16 @@
 #include "main.h"
 
-
 /**
  * handle_char - print char
- * 
- * @param: points to input stream
- * 
+ * @p: points to input stream
  * Return: 0 (success)
 */
-int handle_char(va_list params)
+
+int handle_char(va_list p)
 {
-    char c;
+	char c;
 
-    c = va_arg(params, int);
-    _putchar(c);
-    return(0);
+	c = va_arg(p, int);
+	_putchar(c);
+	return (0);
 }
-
-

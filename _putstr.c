@@ -2,9 +2,7 @@
 
 /**
  * _putstr - print a string.
- * 
- * @s: pointer to the first character in the string.
- * 
+ * @str: pointer to the first character in the string.
  * Return: 1 Seccuess, -1 Failed.
 */
 
