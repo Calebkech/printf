@@ -19,6 +19,8 @@ int format_ctl(const char *format, va_list params, int j)
 	type_s controller[] = {
 		{'c', handle_char},
 		{'s', handle_str},
+		{'i', handle_int},
+		{'d', handle_int},
 		{'\0', NULL}
 	};
 	int i, len;
