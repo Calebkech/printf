@@ -1,9 +1,7 @@
 #include "main.h"
-#include <stdarg.h>
-#include <stddef.h>
 
 /**
- * setter - matches stream format
+ * format_ctl - matches stream format
  * to array of structs containing
  * the formatter type.
  *
@@ -16,11 +14,11 @@
  * Return: (len) size of input stream
  */
 
-int setter(const char *format, va_list params, int j)
+int format_ctl(const char *format, va_list params, int j)
 {
 	type_s controller[] = {
 		{'c', handle_char},
-		{'s', handle_string},
+		{'s', handle_str},
 		{'\0', NULL}
 	};
 	int i, len;

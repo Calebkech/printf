@@ -1,8 +1,5 @@
 #include "main.h"
-#include <stdlib.h>
-#include <stdarg.h>
-#include <unistd.h>
-#include <stddef.h>
+
 
 /**
  * handle_char - print char
@@ -20,7 +17,4 @@ int handle_char(va_list params)
     return(0);
 }
 
-int handle_string(va_list params)
-{
-    /* code goes here */
-}
+
