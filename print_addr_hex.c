@@ -5,6 +5,7 @@
  * @num: arguments.
  * Return: counter.
  */
+
 int print_addr_hex(unsigned long int num)
 {
 	long int index;

@@ -5,6 +5,7 @@
  * @string: points to input stream
  * Return: ascii code
 */
+
 int handle_str(va_list string)
 {
 	char *str;

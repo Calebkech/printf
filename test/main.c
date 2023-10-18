@@ -42,5 +42,7 @@ int main(void)
     printf("Print binary:[%b]\n", 7);
     _printf("Unknown:[%r]\n");
     printf("Unknown:[%r]\n");
+    _printf("flag +:[%+]\n");
+    printf("flag +:[%+]\n");
     return (0);
 }

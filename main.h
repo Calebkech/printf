@@ -1,6 +1,13 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+/*for flags*/
+#define FLAG_MINUS 1
+#define FLAG_PLUS 2
+#define FLAG_ZERO 4
+#define FLAG_HASH 8
+#define FLAG_SPACE 16
+
 #include <stdarg.h>
 #include <unistd.h>
 #include <stdlib.h>
