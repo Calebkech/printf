@@ -7,6 +7,7 @@
  *
  * Return: Size of input stream
  */
+
 int handle_custom_str(va_list params)
 {
 	char *str = va_arg(params, char *);
@@ -41,6 +42,7 @@ int handle_custom_str(va_list params)
  *
  * Return: The corresponding uppercase character
  */
+
 char hex_to_upper(int digit)
 {
 	if (digit >= 0 && digit <= 9)
