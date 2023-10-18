@@ -32,5 +32,12 @@ int handle_str(va_list string);
 int _putstr(char *s);
 int handle_int_helper(int n);
 int handle_int(va_list p);
+int handle_bnry(va_list params);
+int handle_octal(va_list params);
+int handle_hexadecimalCaps(va_list params);
+int handle_hexadecimalLow(va_list params);
+int handle_unsigned(va_list params);
+int handle_addr(va_list params);
+int print_addr_hex(unsigned long int num);
 
 #endif

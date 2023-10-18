@@ -21,6 +21,12 @@ int format_ctl(const char *format, va_list params, int j)
 		{'s', handle_str},
 		{'i', handle_int},
 		{'d', handle_int},
+		{'b', handle_bnry},
+		{'o', handle_octal},
+		{'x', handle_hexadecimalLow},
+		{'X', handle_hexadecimalCaps},
+		{'u', handle_unsigned},
+		{'p', handle_addr},
 		{'\0', NULL}
 	};
 	int i, len;
