@@ -44,5 +44,7 @@ int main(void)
     printf("Unknown:[%r]\n");
     _printf("flag +:[%+]\n");
     printf("flag +:[%+]\n");
+    _printf("%S\n", "Best\nSchool");
+    printf("%S\n", "Best\nSchool");
     return (0);
 }

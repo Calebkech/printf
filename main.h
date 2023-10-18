@@ -46,5 +46,7 @@ int handle_hexadecimalLow(va_list params);
 int handle_unsigned(va_list params);
 int handle_addr(va_list params);
 int print_addr_hex(unsigned long int num);
+char hex_to_upper(int digit);
+int handle_custom_str(va_list params);
 
 #endif
