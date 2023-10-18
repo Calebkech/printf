@@ -43,5 +43,6 @@ int print_addr_hex(unsigned long int num);
 char hex_to_upper(int digit);
 int handle_custom_str(va_list params);
 int handle_custom_reverse(va_list params);
+int handle_custom_rot13(va_list params);
 
 #endif
