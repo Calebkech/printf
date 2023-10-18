@@ -28,6 +28,7 @@ int format_ctl(const char *format, va_list params, int j)
 		{'u', handle_unsigned},
 		{'p', handle_addr},
 		{'S', handle_custom_str},
+		{'r', handle_custom_reverse},
 		{'\0', NULL}
 	};
 	int i, len;
